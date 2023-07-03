@@ -9,7 +9,7 @@
         <title>index</title>
     </head>
     <body>
-        <form  action="./server.php" method="GET">
+        <form  action="server.php" method="GET">
 
             <label for="username">Username:</label><br>
             <input type="text" name="username"><br>
@@ -19,7 +19,7 @@
             <button type="submit">
                 invia
             </button>
-            
+
         </form> 
     </body>
 </html>
