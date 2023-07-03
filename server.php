@@ -1,7 +1,7 @@
 <?php
 
-    $user = $_GET['username'];
-    $text = $_POST['textarea'];
+    $user = $_GET'username';
+    $text = $_POST'textarea';
 ?>
 <!DOCTYPE html>
     <html lang="en">
