@@ -11,10 +11,10 @@
     <body>
         <form  action="server.php" method="GET">
 
-            <label for="username">Username:</label><br>
-            <input type="text" name="username"><br>
+            <label for="user">work to ban</label><br>
+            <input type="text" name="user"><br>
 
-            <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+            <textarea name="textarea" cols="30" rows="10"></textarea>
 
             <button type="submit">
                 invia

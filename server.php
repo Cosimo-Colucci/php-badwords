@@ -1,7 +1,8 @@
 <?php
+    $userBadword = $_GET['user'];
+    $text = $_GET['textarea'];
 
-    $user = $_GET'username';
-    $text = $_GET'textarea';
+    $bannedText = str_replace($userBadword, '***', $text)
 ?>
 <!DOCTYPE html>
     <html lang="en">
@@ -12,7 +13,7 @@
     </head>
     <body>
         <p>
-            <?php echo $user; ?>
+            <?php echo $bannedText; ?>
         </p>
         <p>
             <?php echo $text; ?>
