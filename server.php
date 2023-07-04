@@ -12,11 +12,19 @@
         <title>Server</title>
     </head>
     <body>
+        <h1>
+            Text:
+        </h1>
         <p>
-            <?php echo $bannedText; ?>
+            <?php echo $text; ?><br>
+            <?php echo strlen ($text); ?>
         </p>
+        <h1>
+            ban:
+        </h1>
         <p>
-            <?php echo $text; ?>
+            <?php echo $bannedText; ?><br>
+            <?php echo strlen ($bannedText); ?>
         </p>
     </body>
 </html>
